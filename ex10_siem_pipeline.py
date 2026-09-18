@@ -6,6 +6,12 @@ Exercicio 10 (Desafio) - Mini-pipeline SIEM: log -> MongoDB -> ML
 3. Para cada IP, calcula via agregacao a contagem de FAILs.
 4. Monta um dataset [qtd_fails] e rotula IP como suspeito (1) se >= 5 falhas, senao 0.
 5. Treina um classificador e preve o rotulo de um IP novo com 8 falhas.
+
+O data/auth.log e o arquivo original do repositorio do professor
+(fabioBaraDev/coding_for_security, GS_1Semestre/securaPy/logs/auth.log),
+por isso a contagem real de FAILs por IP (185.220.101.1 -> 11) difere
+em uma unidade do exemplo "10 FAILs" do enunciado do CP; o pipeline abaixo
+calcula tudo via agregacao, entao o resultado reflete fielmente o arquivo.
 """
 import os
 import re

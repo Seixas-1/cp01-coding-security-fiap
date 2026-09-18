@@ -11,7 +11,9 @@ cp01-coding-security-fiap/
 ├── docker-compose.yml       # sobe MySQL e MongoDB para o laboratório
 ├── requirements.txt
 ├── data/
-│   └── auth.log             # log de autenticação usado no Exercício 10
+│   └── auth.log             # log de autenticação usado no Exercício 10 (arquivo
+│                             # original de fabioBaraDev/coding_for_security,
+│                             # GS_1Semestre/securaPy/logs/auth.log)
 ├── ex1_sql_crud.py          # Ex 1  - Modelagem e CRUD SQL (tabela ativos)
 ├── ex2_mongo_crud.py        # Ex 2  - CRUD com PyMongo (vulnerabilidades)
 ├── ex3_mongo_agg.py         # Ex 3  - Agregação: Top IPs
