@@ -3,6 +3,7 @@
 **Aluno:** Enzo Parada Seixas (RM 572294)
 **Professor:** Fabio Bara
 **Conteúdo avaliado:** Aulas 1 a 4 — SQL vs NoSQL, MongoDB (PyMongo), MySQL (mysql-connector-python), Machine Learning (scikit-learn)
+#Códigos feitos a mão e estrutura e repositório feito pelo Claude Sonnet 5.
 
 ## Estrutura
 
